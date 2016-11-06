@@ -5,6 +5,10 @@
   "options": {
     "validateUpsert": true
   },
+  "scope": {
+    "order": "name",
+    "include": "author"
+  },
   "properties": {
     "content": {
       "type": "string",
@@ -17,7 +21,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "author": {
+      "type": "belongsTo",
+      "model": "Author",
+      "foreignKey": ""
+    }
+  },
   "acls": [
     {
       "accessType": "*",
