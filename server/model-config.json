@@ -36,5 +36,9 @@
   "Author": {
     "dataSource": "fs",
     "public": true
+  },
+  "Post": {
+    "dataSource": "fs",
+    "public": true
   }
 }
