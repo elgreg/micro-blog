@@ -15,7 +15,7 @@
   "relations": {
     "posts": {
       "type": "hasMany",
-      "model": "Post",
+      "model": "Thought",
       "foreignKey": ""
     }
   },

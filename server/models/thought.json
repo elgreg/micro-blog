@@ -1,5 +1,5 @@
 {
-  "name": "Post",
+  "name": "Thought",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

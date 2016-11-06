@@ -37,7 +37,7 @@
     "dataSource": "fs",
     "public": true
   },
-  "Post": {
+  "Thought": {
     "dataSource": "fs",
     "public": true
   }
