@@ -14,22 +14,27 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "fs",
+    "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "temp",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "temp",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "temp",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "temp",
     "public": false
+  },
+  "Author": {
+    "dataSource": "fs",
+    "public": true
   }
 }
