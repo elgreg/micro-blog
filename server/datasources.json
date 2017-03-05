@@ -3,9 +3,11 @@
     "name": "temp",
     "connector": "memory"
   },
-  "fs": {
-    "name": "fs",
-    "connector": "memory",
-    "file": "database.json"
+  "db": {
+    "name": "db",
+    "connector": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "thoughter"
   }
 }

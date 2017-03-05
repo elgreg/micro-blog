@@ -14,7 +14,7 @@
     ]
   },
   "User": {
-    "dataSource": "fs",
+    "dataSource": "db",
     "public": false
   },
   "AccessToken": {
@@ -34,11 +34,11 @@
     "public": false
   },
   "Author": {
-    "dataSource": "fs",
+    "dataSource": "db",
     "public": true
   },
   "Thought": {
-    "dataSource": "fs",
+    "dataSource": "db",
     "public": true
   }
 }
