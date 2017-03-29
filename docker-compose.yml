@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    depends_on:
+     - backend
+    ports:
+     - "3000:3000"
+    volumes:
+     - .:/api
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    volumes:
+     - ./temp/data/db:/data/db
+     - ./temp/backup:/mongodb/backup

@@ -6,7 +6,7 @@
   "db": {
     "name": "db",
     "connector": "mongodb",
-    "host": "localhost",
+    "host": "backend",
     "port": 27017,
     "database": "thoughter"
   }

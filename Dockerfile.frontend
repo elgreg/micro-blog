@@ -1,0 +1,16 @@
+FROM alpine:edge
+
+# Install node + npm
+RUN apk update && apk add \
+  nodejs-npm
+
+
+#Install blog
+RUN mkdir /api
+WORKDIR /api
+COPY . /api
+RUN npm install
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
